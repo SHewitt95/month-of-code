@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo|Ubuntu);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.container {
+  width: 960px;
+  display: block;
+  margin: 1em auto;
+  position: relative;
+}
+
+#left-box {
+  position: fixed;
+  width: 250px;
+  float: left;
+  background-color: white;
+  margin-right: 1em;
+}
+
+#left-box #my-name {
+  font-size: 3em;
+  font-family: "Arvo", sans-serif;
+  margin-bottom: 0;
+}
+
+#left-box #my-title {
+  margin-top: 0;
+  font-size: 1.25em;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#programmer-button:hover, #journalist-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#left-box nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#left-box nav ul li {
+  font-size: 2em;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  list-style-type: none;
+}
+
+#right-box {
+  position: relative;
+  float: right;
+  width: 576px;
+  height: auto;
+  padding: 1em;
+  background-color: white;
+  overflow: auto;
+}
+
+#right-box #item-box {
+  width: 576px;
+}
+
+#right-box #written-work {
+  width: 576px;
+}
+
+#right-box #written-work h2 {
+  margin-top: 2em;
+  font-family: "Arvo", sans-serif;
+}
+
+#right-box #written-work p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.15em;
+  line-height: 1.5;
+}
+
+.item {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 200px;
+  background-color: black;
+  margin: 1em 1em;
+}
+
+.clear { clear: both; }

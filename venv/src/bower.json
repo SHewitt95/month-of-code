@@ -1,0 +1,12 @@
+{
+  "name": "month_of_code",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SHewitt95/month-of-code",
+  "authors": [
+    "Sherman Hewitt <s.hewitt7@umiami.edu>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
