@@ -1,4 +1,12 @@
+
 env
 *.DS_Store
 *.pyc
 __pycache__
+
+# Python instance created via virtualenv
+venv/Include/*
+venv/Lib/*
+venv/Scripts/*
+
+pip-selfcheck.json
