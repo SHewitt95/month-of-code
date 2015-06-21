@@ -33,20 +33,25 @@ header h1 {
 
 .stage {
   width: 80%;
-  height: 200px;
+  height: 500px;
   display: inline-block;
-  border: 1px dotted black;
 
   float: left;
 }
 
 .oreo {
+  width: 75%;
+  height: 90%;
+  border: 15px dotted black;
+  border-radius: 100%;
 
+  display: block;
+  margin: 1em auto;
 }
 
 .img-bar {
-  width: 19%;
-  height: 200px;
+  width: 20%;
+  height: 500px;
   display: inline-block;
   background-color: blue;
 }
