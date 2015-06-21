@@ -100,4 +100,10 @@ a:hover {
   margin: 1em 1em;
 }
 
+.item img {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+}
+
 .clear { clear: both; }

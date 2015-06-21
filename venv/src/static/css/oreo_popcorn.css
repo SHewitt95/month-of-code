@@ -10,6 +10,20 @@ body {
   background-color: #D3D3D3; /* Light gray */
 }
 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  text-align: right;
+  margin-right: 1em;
+}
+
 p, ul li {
   font-family: "Josefin Slab", sans-serif;
   font-size: 1.05em;
