@@ -21,3 +21,34 @@ header h1 {
   padding: 0.1em;
   text-align: center;
 }
+
+.slider-box {
+  width: 90%;
+  border: 1px solid black;
+
+  display: block;
+  margin: 1em auto;
+  overflow: visible;
+}
+
+.stage {
+  width: 80%;
+  height: 200px;
+  display: inline-block;
+  border: 1px dotted black;
+
+  float: left;
+}
+
+.oreo {
+
+}
+
+.img-bar {
+  width: 19%;
+  height: 200px;
+  display: inline-block;
+  background-color: blue;
+}
+
+.clear { clear: both; }
