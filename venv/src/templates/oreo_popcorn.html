@@ -12,35 +12,39 @@
       <h1>Cookies &amp; Cream Popcorn</h1>
     </header>
 
-    <p>
-      Want a sweet snack while hanging out with friends? Cookies and Cream Popcorn is the way to go!
-      Taking 10 minutes to prepare, this snack will put some pop into friendly gatherings.
-      Oreos may be milk's favorite cookie, but with this snack, Oreos can be popcorn's perfect pal.
-      You will need...
-    </p>
+    <div class="intro">
+      <p>
+        Want a sweet snack while hanging out with friends? Cookies &amp; Cream Popcorn is the way to go!
+        Taking 10 minutes to prepare, this snack will put some pop into friendly gatherings.
+        Oreos may be milk's favorite cookie, but with this snack, Oreos can be popcorn's perfect pal.
+        You will need...
+      </p>
 
-    <ul>
-      <li>9 cups of popped popcorn</li>
-      <li>20 Oreos, finely crushed</li>
-      <li>24 oz. White Vanilla Almond Bark OR White Chocolate</li>
-    </ul>
+      <ul>
+        <li>24 oz. White Vanilla Almond Bark OR White Chocolate</li>
+        <li>9 cups of popped popcorn</li>
+        <li>20 Oreos, finely crushed</li>
+      </ul>
+    </div> <!-- End intro -->
 
     <div class="slider-box">
       <div class="stage">
         <div class="oreo">
+          <p>Step 1</p>
           <div class="img-box">
             <img src="{{ url_for('static',filename='img/oreo_popcorn/step_1.JPG') }}" alt="Melted chocolate" />
           </div> <!-- End img-box -->
           <div class="text-box">
             <p>
               Melt white vanilla almond bark or white chocolate according to package directions
-              until completely melted and smooth consistency.
-              Warm up in microwave in 30-second increments until fully melted. Chocolate can easily burn.
+              until completely melted.
+              Warm up in microwave in 30-second increments until fully melted.
             </p>
           </div> <!-- End text-box -->
         </div> <!-- End oreo -->
 
         <div class="oreo">
+          <p>Step 2</p>
           <div class="img-box">
             <img src="{{ url_for('static',filename='img/oreo_popcorn/step_2.JPG') }}" alt="Crushed oreos" />
           </div> <!-- End img-box -->
@@ -54,19 +58,21 @@
         </div> <!-- End oreo -->
 
         <div class="oreo">
+          <p>Step 3</p>
           <div class="img-box">
             <img src="{{ url_for('static',filename='img/oreo_popcorn/step_3.JPG') }}" alt="Popcorn and oreos" />
           </div> <!-- End img-box -->
           <div class="text-box">
             <p>
               Pop the popcorn in a microwave and pour into a bowl.
-              Sprinkle finely crushed Oreo crumbs throughout popcorn to evenly distribute.
+              Sprinkle Oreo crumbs throughout popcorn to evenly distribute.
               Stir with spoon for extra mixing of the popcorn and Oreo crumbs.
             </p>
           </div> <!-- End text-box -->
         </div> <!-- End oreo -->
 
         <div class="oreo">
+          <p>Step 4</p>
           <div class="img-box">
             <img src="{{ url_for('static',filename='img/oreo_popcorn/step_4.JPG') }}" alt="Finished cookies and cream popcorn" />
           </div> <!-- End img-box -->
@@ -110,5 +116,7 @@
       <p>Recipe from <a href="http://www.chef-in-training.com/2012/08/cookies-and-cream-popcorn/">"Chef in Training"</a></p>
     </footer>
   </div> <!-- End container -->
+  <script src="{{ url_for('bower.static', filename='jquery/dist/jquery.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/oreo_popcorn/oreo_popcorn.js') }}"></script>
 </body>
 </html>
