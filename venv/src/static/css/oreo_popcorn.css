@@ -42,11 +42,36 @@ header h1 {
 .oreo {
   width: 75%;
   height: 90%;
-  border: 15px dotted black;
+  border: 15px solid black;
   border-radius: 100%;
-
+  position: relative;
   display: block;
   margin: 1em auto;
+}
+
+.img-box {
+  position: absolute;
+  top: 20px;
+  left: 125px;
+  display: block;
+  margin: 1em auto;
+}
+
+.img-box img {
+  width: 275px;
+  border-radius: 15%;
+}
+
+.text-box {
+  width: 300px;
+  position: absolute;
+  top: 250px;
+  left: 125px;
+}
+
+.text-box p {
+  margin: 0;
+  font-size: 1.25em;
 }
 
 .img-bar {
