@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -77,8 +77,27 @@ header h1 {
 .img-bar {
   width: 20%;
   height: 500px;
+  position: relative;
   display: inline-block;
-  background-color: blue;
+  background-color: #4CC5F2;
+}
+
+.step {
+  position: relative;
+  display: block;
+  margin: 1em;
+  width: 80%;
+  height: 100px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.step p {
+  color: white;
+  position: absolute;
+  font-size: 2em;
+  top: 30px;
+  left: 30px;
 }
 
 .clear { clear: both; }
