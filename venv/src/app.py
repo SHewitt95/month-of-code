@@ -9,6 +9,10 @@ Bower(app)
 def index():
 	return render_template('index.html')
 
+@app.route("/oreo_popcorn")
+def oreo_popcorn():
+	return render_template('oreo_popcorn.html')
+
 if __name__ == "__main__":
     app.run(
         host = "0.0.0.0",
