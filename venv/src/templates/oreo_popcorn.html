@@ -29,7 +29,7 @@
 
     <div class="slider-box">
       <div class="stage">
-        <div class="oreo">
+        <div class="oreo" id="step1">
           <p>Step 1</p>
           <div class="img-box">
             <img src="{{ url_for('static',filename='img/oreo_popcorn/step_1.JPG') }}" alt="Melted chocolate" />
@@ -43,7 +43,7 @@
           </div> <!-- End text-box -->
         </div> <!-- End oreo -->
 
-        <div class="oreo">
+        <div class="oreo" id="step2">
           <p>Step 2</p>
           <div class="img-box">
             <img src="{{ url_for('static',filename='img/oreo_popcorn/step_2.JPG') }}" alt="Crushed oreos" />
@@ -57,7 +57,7 @@
           </div> <!-- End text-box -->
         </div> <!-- End oreo -->
 
-        <div class="oreo">
+        <div class="oreo" id="step3">
           <p>Step 3</p>
           <div class="img-box">
             <img src="{{ url_for('static',filename='img/oreo_popcorn/step_3.JPG') }}" alt="Popcorn and oreos" />
@@ -71,7 +71,7 @@
           </div> <!-- End text-box -->
         </div> <!-- End oreo -->
 
-        <div class="oreo">
+        <div class="oreo" id="step4">
           <p>Step 4</p>
           <div class="img-box">
             <img src="{{ url_for('static',filename='img/oreo_popcorn/step_4.JPG') }}" alt="Finished cookies and cream popcorn" />
@@ -87,26 +87,26 @@
       </div> <!-- End stage -->
 
       <div class="img-bar">
-        <a href="#">
-          <div class="step">
+
+          <div class="step" data-step="0">
             <p>Step 1</p>
           </div> <!-- End step -->
-        </a>
-        <a href="#">
-          <div class="step">
+
+
+          <div class="step" data-step="1">
             <p>Step 2</p>
           </div> <!-- End step -->
-        </a>
-        <a href="#">
-          <div class="step">
+
+
+          <div class="step" data-step="2">
             <p>Step 3</p>
           </div> <!-- End step -->
-        </a>
-        <a href="#">
-          <div class="step">
+
+
+          <div class="step" data-step="3">
             <p>Step 4</p>
           </div> <!-- End step -->
-        </a>
+        
       </div> <!-- End img-bar -->
 
       <br class="clear" />

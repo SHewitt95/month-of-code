@@ -124,6 +124,10 @@ header h1 {
   border-radius: 100%;
 }
 
+.step:hover {
+  cursor: pointer;
+}
+
 .step p {
   color: white;
   position: absolute;
