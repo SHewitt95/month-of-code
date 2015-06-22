@@ -62,3 +62,7 @@ header h1 {
   border-top: 5px solid black;
   background-color: white;
 }
+
+.box:hover {
+  cursor: pointer;
+}
