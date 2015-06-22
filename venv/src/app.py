@@ -13,6 +13,10 @@ def index():
 def oreo_popcorn():
 	return render_template('oreo_popcorn.html')
 
+@app.route("/wall_of_color")
+def wall_of_color():
+	return render_template('wall_of_color.html')
+
 if __name__ == "__main__":
     app.run(
         host = "0.0.0.0",
