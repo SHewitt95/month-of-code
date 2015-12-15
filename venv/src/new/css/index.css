@@ -33,7 +33,7 @@ body#homepage {
   font-family: "Ubuntu", sans-serif;
 }
 
-#homepage #programmer-button:hover, #homepage #journalist-button:hover {
+#homepage #programmer-button, #homepage #journalist-button {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -96,8 +96,17 @@ body#homepage {
   left: 0;
   width: 250px;
   height: 200px;
-  background-color: black;
+/*  background-color: black;*/
   margin: 1em 1em;
+}
+
+#homepage .item .item-desc {
+  margin: 0;
+  display: block;
+  position: relative;
+  bottom: 50px;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0.25;
 }
 
 #homepage .item img {
@@ -107,3 +116,37 @@ body#homepage {
 }
 
 #homepage .clear { clear: both; }
+
+.itemTitle a {
+  text-decoration:none;
+  margin-top: 2em;
+  font-family: "Arvo", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.itemDate {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.feedEkList {
+   width: 100%;
+   list-style:none outside none;
+   background-color:#FFFFFF;
+   padding: 0;
+   color:#3E3E3E;
+}
+
+.feedEkList li {
+  margin-bottom: 2.5em;
+}
+
+.feedEkList .itemContent {
+  font-family: "Ubuntu", sans-serif;
+}
+
+ul {
+  list-style: none;
+}

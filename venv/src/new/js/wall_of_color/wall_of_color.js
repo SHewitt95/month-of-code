@@ -6,7 +6,7 @@ $(document).ready(function() {
   boxes.on('click', function() {
     var $self = $(this);
 
-    var number = Math.random()*256;
+    var number = Math.random()*255;
 
     var messyHex = number.toString(16);
 
