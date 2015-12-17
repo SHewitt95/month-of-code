@@ -7,7 +7,8 @@ body#homepage {
 }
 
 #homepage .container {
-  width: 960px;
+  max-width: 960px;
+  min-width: 640px;
   display: block;
   margin: 1em auto;
   position: relative;
@@ -71,16 +72,20 @@ body#homepage {
 }
 
 #homepage #right-box #item-box {
-  width: 576px;
+  width: 100%;
 }
 
 #homepage #right-box #written-work {
-  width: 576px;
+  width: 100%;
 }
 
-#homepage #right-box #written-work h2 {
-  margin-top: 2em;
+#homepage #right-box h2 {
+  margin-top: 1.5em;
   font-family: "Arvo", sans-serif;
+}
+
+#homepage #right-box #item-box h3 {
+
 }
 
 #homepage #right-box #written-work p {
@@ -95,24 +100,32 @@ body#homepage {
   top: 0;
   left: 0;
   width: 250px;
-  height: 200px;
+  height: 250px;
 /*  background-color: black;*/
-  margin: 1em 1em;
-}
-
-#homepage .item .item-desc {
-  margin: 0;
-  display: block;
-  position: relative;
-  bottom: 50px;
-  font-family: "Ubuntu", sans-serif;
-  line-height: 0.25;
+  margin: 1em 1em 3em 1em;
 }
 
 #homepage .item img {
   position: absolute;
-  width: 250px;
-  height: 200px;
+  width: 100%;
+  height: 80%;
+  top: 4.75em;
+}
+
+#homepage .item .item-desc {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#homepage .item .item-desc:nth-child(1) {
+  font-size: 1.25em;
+  font-family: "Arvo", sans-serif;
+}
+
+#homepage .item .item-desc:nth-child(2) {
+  margin-top: 1.75em;
 }
 
 #homepage .clear { clear: both; }
@@ -140,7 +153,7 @@ body#homepage {
 }
 
 .feedEkList li {
-  margin-bottom: 2.5em;
+  margin-bottom: 3em;
 }
 
 .feedEkList .itemContent {
