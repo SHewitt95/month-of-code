@@ -8,7 +8,7 @@ body#homepage {
 
 #homepage .container {
   max-width: 960px;
-  min-width: 640px;
+  min-width: 320px;
   display: block;
   margin: 1em auto;
   position: relative;
@@ -36,7 +36,8 @@ body#homepage {
 
 #homepage #programmer-button, #homepage #journalist-button {
   cursor: pointer;
-  text-decoration: underline;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.05em;
 }
 
 #homepage #left-box nav ul {
@@ -84,10 +85,6 @@ body#homepage {
   font-family: "Arvo", sans-serif;
 }
 
-#homepage #right-box #item-box h3 {
-
-}
-
 #homepage #right-box #written-work p {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.15em;
@@ -101,7 +98,6 @@ body#homepage {
   left: 0;
   width: 250px;
   height: 250px;
-/*  background-color: black;*/
   margin: 1em 1em 3em 1em;
 }
 
